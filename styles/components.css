@@ -1,0 +1,126 @@
+@import 'variables.css';
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-sm);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-sm);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(204, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Experience Section */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.experience-card {
+  padding: var(--spacing-md);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(204, 0, 0, 0.1);
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Projects Section */
+.project-card {
+  padding: var(--spacing-lg);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  text-align: center;
+  border: 1px solid rgba(204, 0, 0, 0.1);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--bu-red);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: var(--bu-red-hover);
+}
+
+/* Contact Section */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  text-align: center;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(204, 0, 0, 0.1);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Social Media Icons */
+.contact-card i.fa-linkedin {
+  color: var(--linkedin-blue);
+}
+
+.contact-card i.fa-envelope {
+  color: var(--email-red);
+}
+
+.contact-card i.fa-graduation-cap {
+  color: var(--school-blue);
+}
+
+.contact-card i {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--spacing-sm);
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}

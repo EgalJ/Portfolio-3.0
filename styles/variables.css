@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --primary-red: #cc0000;
+  --dark-red: #8b0000;
+  --light-red-bg: #fff0f0;
+  
+  /* Text Colors */
+  --text-primary: #333;
+  --text-secondary: #666;
+  --text-white: #fff;
+  
+  /* Brand Colors */
+  --linkedin-blue: #0A66C2;
+  
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  
+  /* Other */
+  --border-radius: 8px;
+  --box-shadow: 0 2px 4px rgba(139, 0, 0, 0.1);
+}

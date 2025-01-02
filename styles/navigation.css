@@ -1,0 +1,26 @@
+@import 'variables.css';
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-md);
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 var(--spacing-md);
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--primary-red);
+}

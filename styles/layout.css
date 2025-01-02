@@ -1,0 +1,22 @@
+@import 'variables.css';
+
+main {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto var(--spacing-xl) auto;
+  padding: var(--spacing-lg);
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
