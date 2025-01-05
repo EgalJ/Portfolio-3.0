@@ -23,7 +23,6 @@ nav {
   z-index: 1000;
 }
 
-
 nav a {
   margin: 0 1rem;
   text-decoration: none;
@@ -68,7 +67,6 @@ h3 {
   margin: 0 auto;
   text-align: center;
   font-size: 1.1rem;
-  
 }
 
 .skills-grid {

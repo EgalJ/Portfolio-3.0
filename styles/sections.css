@@ -103,9 +103,23 @@
 }
 
 .project-description {
-  margin-top: var(--spacing-md);
+  margin: var(--spacing-md) 0;
   color: var(--text-secondary);
   line-height: 1.6;
+}
+
+.tech-stack {
+  margin: var(--spacing-md) 0;
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  background-color: var(--primary-red);
+  color: white;
+  border-radius: 15px;
+  font-size: 0.9em;
 }
 
 /* Contact Section */
