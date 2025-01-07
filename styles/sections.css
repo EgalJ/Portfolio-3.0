@@ -8,7 +8,15 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: var(--light-red-bg);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+}
 /* Profile Section */
 .profile-container {
   text-align: center;
